@@ -1,0 +1,148 @@
+
+.navbar-brand { 
+  width: 140px;
+  /*height: 50px;*/
+  background: url('https://mononrr.com/mimages/tgifs/msteaml.gif') no-repeat center center;
+  background-size: 50px;  
+}
+
+.nav-tabs {
+  display: inline-block;
+  border-bottom: none;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.nav-tabs > li > a, 
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: none;
+  border-radius: 0;
+}
+
+.nav-list { border-bottom: px solid #eee; }
+.nav-list > li { 
+  padding: 20px 15px 15px;
+ 
+}
+.nav-list > li:last-child { border-right: 0px solid #eee; }
+.nav-list > li > a:hover { text-decoration: none; }
+.nav-list > li > a > span {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {
+  padding: 20px 15px 15px;
+  text-align: center;
+  width: 100%;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+.navbar-login
+{
+    width: 270px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.icon-size
+{
+    font-size: 87px;
+}
+
+
+
+
+
+/*.navbar-brand a {
+    color: blue;
+    cursor: default;
+    background-color: #428bca;
+}
+*/
+/*.navbar-nav {
+    padding-left: 15px;
+    background-color: rgb(51,79,111);
+}*/
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #00486c;
+}*/
+
+/*.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(51,79,111);
+}
+
+.navbar-inverse { 
+	background-color: rgb(51,79,111);
+	border-color: rgb(51,79,111);
+}*/
+
+
+/*ul li a:hover {
+    background-color: white;
+}
+*/
+/*.navbar-nav>li>a:focus{
+     background-color: white;
+}*/
+
+
+
+
